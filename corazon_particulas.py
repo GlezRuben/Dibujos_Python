@@ -14,7 +14,7 @@ NUM_PARTICULAS = 10000
 COLOR_PARTICULAS = [(234, 128, 176)]
 
 screen = pygame.display.set_mode((ANCHO_VENTANA, ALTURA_VENTANA))
-pygame.dasplay.set_caption("I Love You <3")
+pygame.display.set_caption("I Love You <3")
 
 class Particle:
     def __init__(self):
@@ -79,7 +79,7 @@ def point_on_heart(t):
     y = 130 * math.cos(t) - 50*math.cos(2*t) - 20*math.cos(3*t) - 10*math.cos(4*t) + 25
     return [x, y]
 
-particles = particlePool(NUM_PARTICULAS)
+particles = ParticlePool(NUM_PARTICULAS)
 particle_rate = NUM_PARTICULAS / DURACION_PARTICULA
 
 running = True
