@@ -14,17 +14,17 @@ def corazon1(k):
            math.cos(3*k)-\
            math.cos(4*k)
 
-for i in range(600):
-    t.goto(corazon(i)*18, corazon1(i)*18)
-    for j in range(5):
-        t.color("red")
-        
 t.color("gold")
 t.penup()
 t.goto(115,-40)
 t.pendown()
-t.write("I LOVE YOU", False,
-      "right", ("arial", 30, "bold"))
+t.write("I Love You", True,
+      "right", ("indie flower", 30, "bold"))
+
+for i in range(600):
+    t.goto(corazon(i)*18, corazon1(i)*18)
+    for j in range(5):
+        t.color("red")
 
 t.hideturtle()
 turtle.done()
