@@ -58,6 +58,7 @@ t.end_fill()
 
 # Youtube: https://www.youtube.com/@glez_rbn
 # TikTok: @glez_rbn
+# Instagram: @glez_rbn
 
 t.seth(40.23)
 t.circle(424.49,11.86)
