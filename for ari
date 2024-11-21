@@ -13,14 +13,14 @@ def corazon(n):
         math.cos(4*n)
     return x, y
     
-  t.penup()
-  for i in range(15):
-      t.goto(0,0)
-      t.pendown()
-      for n in range(0, 100, 2):
-          x, y = corazon(n/10)
-          t.goto(x*i, y*i)
-      t.penup()
+t.penup()
+for i in range(15):
+    t.goto(0,0)
+    t.pendown()
+    for n in range(0, 100, 2):
+        x, y = corazon(n/10)
+        t.goto(x*i, y*i)
+    t.penup()
       
-  t.hideturtle()
-  turtle.done()
+t.hideturtle()
+turtle.done()
