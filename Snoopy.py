@@ -176,4 +176,5 @@ t.write("Te Amo", False, "right", \
         ("Bradley Hand ITC", 55, "bold"))
 
 t.hideturtle()
+
 turtle.done()
