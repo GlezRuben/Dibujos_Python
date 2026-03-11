@@ -129,7 +129,7 @@ flor(65.71, 85.27)
 
 t.color("Chocolate")
 go(100, -250)
-t.write("I love you", False, "right", \
+t.write("Te amo", False, "right", \
         ("Bradley Hand ITC", 40, "bold"))
 
 t.hideturtle()
